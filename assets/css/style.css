@@ -34,21 +34,26 @@ input{
     background-color: #0000;
     color: blue;
 }
-input:hover{
+/* input:hover{
     border: blue solid 1px;
     background-color: blue;
     color: white;
-}
+} */
 button{
     padding: 10px 20px;
     border-radius: 10px;
     width: fit-content;
     align-self: center;
     border: blue solid 1px;
+    background-color: blue;
+    color: white;
+}
+button:hover{
+    border: blue solid 1px;
     background-color: #0000;
     color: blue;
 }
-button:hover{
+button:active{
     border: blue solid 1px;
     background-color: blue;
     color: white;

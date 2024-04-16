@@ -10,6 +10,7 @@ function calculateAge() {
   } else {
     const age = getAge(birthdateValue);
     ageID.innerText = `Your age is ${age} ${age > 1 ? "years" : "year"} old`;
+    ageID.classList.remove("red");
   }
 }
 
