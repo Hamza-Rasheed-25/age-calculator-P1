@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+}
+h1{
+    font-size: 52px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    margin: 10px;
+}
+.Calculator{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+label{
+    font-size: 30px;
+    color: white;
+    padding: 10px 20px 30px 20px;
+}
+input{
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 25px;
+    border: blue solid 1px;
+    background-color: #0000;
+    color: blue;
+}
+input:hover{
+    border: blue solid 1px;
+    background-color: blue;
+    color: white;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: fit-content;
+    align-self: center;
+    border: blue solid 1px;
+    background-color: #0000;
+    color: blue;
+}
+button:hover{
+    border: blue solid 1px;
+    background-color: blue;
+    color: white;
+}
+#age{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.red{
+    color: red !important;
+}
